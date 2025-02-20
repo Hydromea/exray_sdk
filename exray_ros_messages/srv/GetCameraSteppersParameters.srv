@@ -1,0 +1,13 @@
+# Header must contain the stamp at which the query is issued
+std_msgs/Header header
+---
+float32 min_zoom
+float32 max_zoom
+float32 min_focus
+float32 max_focus
+float32 min_tilt
+float32 max_tilt
+float32 min_focal_distance
+float32 max_focal_distance
+
+# Response values should contain values at the time of the query header TODO: see how that can be implemented properly

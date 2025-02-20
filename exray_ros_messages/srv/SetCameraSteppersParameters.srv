@@ -1,0 +1,10 @@
+# Header must contain the stamp at which the command is issued
+std_msgs/Header header
+# For each value, default as -1 means that the value shouldnt be changed from the internal value of the stepper controler.
+# This allows to selectivly set each part as needed (without needing to create a service for each combination)
+float32 zoom -1
+float32 focus -1
+float32 tilt -1
+---
+# The response header must contain the time at which the command was received and implemented
+std_msgs/Header response_header  

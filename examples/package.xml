@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>examples</name>
+  <version>1.0.0</version>
+  <description>
+    Example nodes demonstrating usage of exray sdk
+</description>
+  <maintainer email="maintainer@example.com">pi</maintainer>
+  <license> Copyrights Hydromea 2024 - All rights reserved </license>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+
+  <exec_depend>exray_ros_messages</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

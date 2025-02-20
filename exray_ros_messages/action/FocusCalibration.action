@@ -1,0 +1,22 @@
+# Goal
+# header with query issued timestamp
+std_msgs/Header query_header
+
+# Parameters for the focus search
+int32 zoom_grid_size
+float32 zoom_min
+float32 zoom_max
+float32 focus_min
+float32 focus_max
+
+# Goal focal_distance 
+float32 focal_distance
+
+---
+# Result
+std_msgs/Header result_header
+bool success
+FocalDistanceCalibrated calibration_table
+---
+#Feedback
+float32 current_calibrating_zoom
