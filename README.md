@@ -1,5 +1,5 @@
 # Hydromea EXRAY™ SDK
-[Aboute EXRAY™](#about-exray™) | [About the SDK](#about-the-sdk) | [Getting started](#getting-started) | [Sample code](#sample-code) | [FAQ](docs/FAQ.md) | [Reporting an issue](#reporting-an-issue) | [License](#license)
+[Aboute EXRAY™](#about-exray™) | [About the SDK](#about-the-sdk) | [Getting started](#getting-started) | [Sample code](#sample-code) | [ROS Topics](docs/ROS_Topics.md) | [FAQ](docs/FAQ.md) | [Reporting an issue](#reporting-an-issue) | [License](#license)
 
 <p align="left">
   <a href="https://www.hydromea.com">
@@ -11,7 +11,7 @@
 **EXRAY™** is a Swiss-made, professional-grade robot designed specifically for detailed inspections of submerged assets. Slim, agile, and highly modular, it’s an excellent tool for tough underwater inspection missions.
 
 The EXRAY™ KIT consists of two identical and therefore interchangeable EXRAY™ ROVs that are docked to each other with a docking system and are connected wirelessly using a proprietary LUMA™ optical wireless system.
-The primary EXRAY™ ROV is always tethered to the ground station controller. The secondary EXRAY™ FLYOUT ROV does not have a tether. When the ROVs are docked, the kit acts as one single ROV, using the power of thrusters on both vehicles.When the ROVs are undocked, LUMA™ uses blue light ensuring smooth data transfer between the two vehicles.
+The primary EXRAY™ ROV is always tethered to the ground station controller. The secondary EXRAY™ FLYOUT ROV does not have a tether. When the ROVs are docked, the kit acts as one single ROV, using the power of thrusters on both vehicles When the ROVs are undocked, LUMA™ uses blue light ensuring smooth data transfer between the two vehicles.
 
 All product specifications can be found at [this link](https://files.hydromea.com/exray/EXRAY_Technical_Specifications.pdf)
 
@@ -67,7 +67,7 @@ LUMA™ provides wireless communication between EXRAYs™. As blue light is used
 LUMA™ does not allow the transits of packets in the IP range `192.168.102.240-254`.
 
 ## ROS Message definitions
-The message definitions for communicating with EXRAY™ are available in `exray_ros_messages`.
+The message definitions for communicating with EXRAY™ are available in `exray_ros_messages`. The complete list of ROS topics with the corresponding messages can be found [here](docs/ROS_Topics.md).
 
 ## Examples
 Examples in Python are available in the `examples` folder of this repository.
